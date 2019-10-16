@@ -6,11 +6,11 @@ function loop_array () {
                 ["0003", "Winona", "Ambon", "25/12/1965", "Memasak"],
                 ["0004", "Bintang Senjaya", "Martapura", "6/4/1970", "Berkebun"]
             ]
-for (var i = 0; i < 4; i++) {
-	
+for (var i = 0; i < input.length; i++) {
+
 	console.log("Nomer :" + input[i][0]);
 	console.log("Nama :" + input[i][1]);
-	console.log("TTl :" + input[i][3] + " " + input[i][2]);
+	console.log("TTl :" + input[i][2] + " " + input[i][3]);
 	console.log("Hobi :" + input[i][4]);
 
 };
